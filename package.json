@@ -1,0 +1,23 @@
+{
+  "name": "env-merge",
+  "version": "0.1.0",
+  "description": "A command-line tool for merging .env.dist changes into local variants.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dotenv",
+    "merge"
+  ],
+  "author": "Anthony daCosta",
+  "license": "GPLv3",
+  "bin": {
+    "env-merge": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.12.2",
+    "dotenv": "^4.0.0"
+  }
+}
