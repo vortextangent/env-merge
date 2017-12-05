@@ -1,8 +1,16 @@
 {
-  "name": "env-merge",
+  "name": "@riskalyze/env-merge",
   "version": "0.1.0",
+  "private": false,
   "description": "A command-line tool for merging .env.dist changes into local variants.",
-  "main": "index.js",
+  "publishConfig": {
+    "registry": "http://npm.riskalyze.com"
+  },
+  "main": "env-merge.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vortextangent/env-merge.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +19,9 @@
     "merge"
   ],
   "author": "Anthony daCosta",
-  "license": "GPLv3",
+  "license": "GPL-3.0",
   "bin": {
-    "env-merge": "./index.js"
+    "env-merge": "./env-merge.js"
   },
   "dependencies": {
     "chalk": "^2.3.0",
